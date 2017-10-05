@@ -1,0 +1,28 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./source/gtm-head.js"
+      }
+    ],
+    "body": [
+      {
+        "type": "script",
+        "src": "./source/gtm-body.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "code": {
+        "title": "Tag Manager Container ID",
+        "description": "",
+        "order": 0,
+        "type": "string",
+        "maxLength": 12,
+        "placeHolder": "GTM-?"
+      }      
+    }
+  }
+}

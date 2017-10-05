@@ -1,0 +1,32 @@
+{
+  "name": "google-tag-manager",
+  "version": "0.0.1",
+  "description": "Dynamic analytics and marketing through Google's free tool",
+  "main": "",
+  "scripts": {
+    "lint": "standard --fix ./source/**/*.js || true"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlkibler/cloudflare-google-tag-manager.git"
+  },
+  "author": "Carl Kibler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlkibler/cloudflare-google-tag-manager/issues"
+  },
+  "homepage": "https://github.com/carlkibler/cloudflare-google-tag-manager#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}
